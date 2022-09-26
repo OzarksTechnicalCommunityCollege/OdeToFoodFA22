@@ -23,5 +23,9 @@ namespace OdeToFood.Data
                    orderby r.Name
                    select r;
         }
+        public Restaurant GetRestaurantById(int id)
+        {
+            return restaurants.SingleOrDefault(r => r.Id == id);
+        }
     }
 }

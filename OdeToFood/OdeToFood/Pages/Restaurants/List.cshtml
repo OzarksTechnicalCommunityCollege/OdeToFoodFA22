@@ -25,6 +25,16 @@
             </td>
             <td>@restaurant.Location</td>
             <td>@restaurant.Cuisine</td>
+            @*Add a button to the table row to link to the details page. bind the restaurantId*@
+            @* use a page helper to point to the detail page and pass the restaurant it with the route helper*@
+            @*   route allows you to add a dash, then the name of an element *@
+            <td>
+                <a class="btn btn-lg"
+
+                asp-page="./Detail" asp-route-restaurantID="@restaurant.Id">...
+                    
+                </a>
+            </td>
         </tr>
     }
 </table>
