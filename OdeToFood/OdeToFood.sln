@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood", "OdeToFood\OdeToFood.csproj", "{11A42B08-7F1B-4EEA-97F3-7952FD90FFB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Core", "OdeToFood.Core\OdeToFood.Core.csproj", "{D116163B-DC46-47CB-AE9C-04FA30E9A4F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Data", "OdeToFood.Data\OdeToFood.Data.csproj", "{5167D714-0512-4C83-ABC9-A2A41770B77D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A42B08-7F1B-4EEA-97F3-7952FD90FFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A42B08-7F1B-4EEA-97F3-7952FD90FFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A42B08-7F1B-4EEA-97F3-7952FD90FFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A42B08-7F1B-4EEA-97F3-7952FD90FFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D116163B-DC46-47CB-AE9C-04FA30E9A4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D116163B-DC46-47CB-AE9C-04FA30E9A4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D116163B-DC46-47CB-AE9C-04FA30E9A4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D116163B-DC46-47CB-AE9C-04FA30E9A4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5167D714-0512-4C83-ABC9-A2A41770B77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5167D714-0512-4C83-ABC9-A2A41770B77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5167D714-0512-4C83-ABC9-A2A41770B77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5167D714-0512-4C83-ABC9-A2A41770B77D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B3D6E26-E1B8-4EED-90D9-74F6B98B6FA1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cisteam.otc.edu/tfs/rileyre
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OdeToFood.Core\\OdeToFood.Core.csproj
+		SccProjectName1 = OdeToFood.Core
+		SccLocalPath1 = OdeToFood.Core
+		SccProjectUniqueName2 = OdeToFood.Data\\OdeToFood.Data.csproj
+		SccProjectName2 = OdeToFood.Data
+		SccLocalPath2 = OdeToFood.Data
+		SccProjectUniqueName3 = OdeToFood\\OdeToFood.csproj
+		SccProjectName3 = OdeToFood
+		SccLocalPath3 = OdeToFood
+	EndGlobalSection
+EndGlobal
